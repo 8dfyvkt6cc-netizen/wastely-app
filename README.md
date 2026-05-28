@@ -1,3 +1,0 @@
-# Wastely
-
-Initializing...
