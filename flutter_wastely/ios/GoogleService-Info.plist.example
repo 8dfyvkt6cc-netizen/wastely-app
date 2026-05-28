@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  INSTRUCTIONS:
+  1. Go to https://console.firebase.google.com
+  2. Create / open your project
+  3. Add iOS app with Bundle ID: com.wastely.app
+  4. Download GoogleService-Info.plist
+  5. Replace this file at ios/Runner/GoogleService-Info.plist
+  6. Enable Authentication → Email/Password in Firebase Console
+-->
+<plist version="1.0">
+<dict>
+  <key>CLIENT_ID</key>
+  <string>YOUR_CLIENT_ID.apps.googleusercontent.com</string>
+  <key>REVERSED_CLIENT_ID</key>
+  <string>com.googleusercontent.apps.YOUR_REVERSED_CLIENT_ID</string>
+  <key>API_KEY</key>
+  <string>YOUR_API_KEY</string>
+  <key>GCM_SENDER_ID</key>
+  <string>YOUR_GCM_SENDER_ID</string>
+  <key>PLIST_VERSION</key>
+  <string>1</string>
+  <key>BUNDLE_ID</key>
+  <string>com.wastely.app</string>
+  <key>PROJECT_ID</key>
+  <string>wastely-app</string>
+  <key>STORAGE_BUCKET</key>
+  <string>wastely-app.appspot.com</string>
+  <key>IS_ADS_ENABLED</key>
+  <false/>
+  <key>IS_ANALYTICS_ENABLED</key>
+  <false/>
+  <key>IS_APPINVITE_ENABLED</key>
+  <true/>
+  <key>IS_GCM_ENABLED</key>
+  <true/>
+  <key>IS_SIGNIN_ENABLED</key>
+  <true/>
+  <key>GOOGLE_APP_ID</key>
+  <string>1:YOUR_PROJECT_NUMBER:ios:YOUR_APP_ID</string>
+</dict>
+</plist>
